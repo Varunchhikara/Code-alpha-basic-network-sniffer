@@ -1,0 +1,24 @@
+# Ignore captured packet files
+*.pcap
+*.pcapng
+*.cap
+
+# Ignore logs
+*.log
+*.txt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore screenshots (if any)
+*.png
+*.jpg
+
+# Ignore personal config
+*.conf
+.env
+
+# Ignore any test capture outputs
+captures/
